@@ -22,7 +22,7 @@ from distutils.core import setup, Extension
 module1 = Extension('netinfo',
                     sources = ['netinfo.c', 'iface.c', 'route.c'])
 setup (name = 'Pynetinfo',
-       version = '0.2.2',
+       version = '0.2.2Leakid',
        description = 'python network information',
        ext_modules = [module1],
        scripts = ['test.py'])
