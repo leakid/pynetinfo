@@ -33,7 +33,7 @@
 
 #include "netinfo.h"
 
-#define IF_COUNT 64
+#define IF_COUNT 512
 
 PyObject *netinfo_list_active_devs(PyObject *self, PyObject *args)
 {
